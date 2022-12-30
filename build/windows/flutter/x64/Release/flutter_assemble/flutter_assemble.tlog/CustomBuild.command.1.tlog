@@ -1,0 +1,28 @@
+^C:\USERS\HUZAIFA\STUDIOPROJECTS\OMD_ADMIN_PANEL\BUILD\WINDOWS\CMAKEFILES\673F154EDD6120C3C1CFB2AD77116B63\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env "FLUTTER_ROOT=C:\Users\Huzaifa\Desktop\Dev Folder\FlutterSdk\src\flutter" PROJECT_DIR=C:\Users\Huzaifa\StudioProjects\omd_admin_panel "FLUTTER_ROOT=C:\Users\Huzaifa\Desktop\Dev Folder\FlutterSdk\src\flutter" FLUTTER_EPHEMERAL_DIR=C:\Users\Huzaifa\StudioProjects\omd_admin_panel\windows\flutter\ephemeral PROJECT_DIR=C:\Users\Huzaifa\StudioProjects\omd_admin_panel FLUTTER_TARGET=lib\main.dart DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=true PACKAGE_CONFIG=C:\Users\Huzaifa\StudioProjects\omd_admin_panel\.dart_tool\package_config.json "C:/Users/Huzaifa/Desktop/Dev Folder/FlutterSdk/src/flutter/packages/flutter_tools/bin/tool_backend.bat" windows-x64 Release
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\HUZAIFA\STUDIOPROJECTS\OMD_ADMIN_PANEL\BUILD\WINDOWS\CMAKEFILES\B297BFA43DE0EFBBCEC577673F5A6DEC\FLUTTER_ASSEMBLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\HUZAIFA\STUDIOPROJECTS\OMD_ADMIN_PANEL\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/Huzaifa/StudioProjects/omd_admin_panel/windows -BC:/Users/Huzaifa/StudioProjects/omd_admin_panel/build/windows --check-stamp-file C:/Users/Huzaifa/StudioProjects/omd_admin_panel/build/windows/flutter/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
